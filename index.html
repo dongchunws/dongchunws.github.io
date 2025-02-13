@@ -1,299 +1,743 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="zxx">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jadwal Tayang Donghua</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px; /* Tambahkan padding ke body untuk mobile */
-      box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
-    }
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anime | Template</title>
 
-    .container {
-      width: 100%; /* Lebar container 100% untuk mobile */
-      max-width: 1400px; /* Tetapkan lebar maksimum untuk desktop */
-      background-color: white;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      overflow-x: auto; /* Aktifkan scroll horizontal pada mobile */
-      box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
-    }
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    .tables-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-    }
-
-    .day-table {
-      width: 100%; /* Setiap tabel mengambil seluruh lebar pada mobile */
-      margin: 10px 0; /* Margin atas dan bawah untuk mobile */
-      box-sizing: border-box;
-    }
-
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      white-space: nowrap;
-    }
-
-    th, td {
-      padding: 8px 10px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-
-    th {
-      background-color: #3498db;
-      color: white;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-
-    tr:hover {
-      background-color: #e0e0e0;
-    }
-
-    a {
-      color: #3498db;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* Media query untuk layar yang lebih besar dari 768px (misalnya, tablet dan desktop) */
-    @media (min-width: 768px) {
-      .container {
-        width: 90%; /* Kembalikan lebar container ke 90% */
-        padding: 20px;
-      }
-
-      .day-table {
-        width: calc(33.33% - 20px); /* Setiap tabel mengambil sepertiga lebar pada desktop */
-        margin: 10px;
-      }
-    }
-  </style>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
-
-<div class="container">
-  <h2>Jadwal Tayang Donghua</h2>
-
-  <div class="tables-container">
-
-    <div class="day-table">
-      <h3>Senin</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/wonderland-season-5/">Wonderland Season 5</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/the-ravages-of-time/">The Ravages of Time</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/renegade-immortal/">Renegade Immortal</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/divine-dao-emperor/">Divine Dao Emperor</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/supreme-god-emperor/">Supreme God Emperor</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/a-record-of-a-mortals-journey-to-immortality/">A Record of a Mortal's Journey to Immortality</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/against-the-sky-supreme/">Against the Sky Supreme</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/grandmaster-of-alchemy/">Grandmaster of Alchemy</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/proud-swordsman/">Proud Swordsman</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/strongest-immortal-of-seven-realms/">Strongest Immortal of Seven Realms</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/adventures-in-subduing-the-demons/">Adventures in Subduing the Demons</a></td></tr>
-          <tr><td>00:30</td><td><a href="https://anichin.gold/super-xiang/">Super Xiang</a></td></tr>
-          <tr><td>01:00</td><td><a href="https://anichin.gold/lingwu-continent/">Lingwu Continent</a></td></tr>
-          <tr><td>01:30</td><td><a href="https://anichin.gold/rebirth-of-the-sword-patriarch/">Rebirth of the Sword Patriarch</a></td></tr>
-          <tr><td>02:00</td><td><a href="https://anichin.gold/tiger-crane/">Tiger Crane</a></td></tr>
-          <tr><td>02:30</td><td><a href="https://anichin.gold/ancient-myth/">Ancient Myth</a></td></tr>
-          <tr><td>03:00</td><td><a href="https://anichin.gold/my-sectarian-members-are-spies/">My Sectarian Members are Spies</a></td></tr>
-          <tr><td>03:30</td><td><a href="https://anichin.gold/spirit-cage-incarnation-season-2/">Spirit Cage Incarnation Season 2</a></td></tr>
-          <tr><td>04:00</td><td><a href="https://anichin.gold/the-infinitors/">The Infinitors</a></td></tr>
-          <tr><td>04:30</td><td><a href="https://anichin.gold/honor-of-king-short-animation/">Honor of King Short Animation</a></td></tr>
-        </tbody>
-      </table>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
     </div>
 
-    <div class="day-table">
-      <h3>Selasa</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/i-can-have-infinite-enlightenment/">I Can Have Infinite Enlightenment</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/swallowed-star-season-3/">Swallowed Star Season 3</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/world-of-immortals/">World of Immortals</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/lord-of-the-ancient-god-grave/">Lord of the Ancient God Grave</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/heavenly-brick-knight/">Heavenly Brick Knight</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/martial-master/">Martial Master</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/peerless-battle-spirit/">Peerless Battle Spirit</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/spirit-sword-sovereign-season-4/">Spirit Sword Sovereign Season 4</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/100-000-years-of-refining-qi/">100,000 Years of Refining Qi</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/fight-for-the-throne/">Fight for the Throne</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/great-doctor-miss-nine/">Great Doctor Miss Nine</a></td></tr>
-          <tr><td>00:30</td><td><a href="https://anichin.gold/lord-of-destiny/">Lord of Destiny</a></td></tr>
-          <tr><td>01:00</td><td><a href="https://anichin.gold/my-wechat-connects-to-the-dragon-palace/">My WeChat Connects to the Dragon Palace</a></td></tr>
-          <tr><td>01:30</td><td><a href="https://anichin.gold/the-rise-of-the-weak/">The Rise of the Weak</a></td></tr>
-          <tr><td>02:00</td><td><a href="https://anichin.gold/heavenly-martial-god/">Heavenly Martial God</a></td></tr>
-        </tbody>
-      </table>
-    </div>
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Homepage</a></li>
+                                <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                    <ul class="dropdown">
+                                        <li><a href="./categories.html">Categories</a></li>
+                                        <li><a href="./anime-details.html">Anime Details</a></li>
+                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
+                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="./signup.html">Sign Up</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./blog.html">Our Blog</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__right">
+                        <a href="#" class="search-switch"><span class="icon_search"></span></a>
+                        <a href="./login.html"><span class="icon_profile"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
 
-    <div class="day-table">
-      <h3>Rabu</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/the-chronicle-of-heroic-knight/">The Chronicle of Heroic Knight</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/endless-god-realm/">Endless God Realm</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/fog-hil-of-five-elements/">Fog Hill of Five Elements</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/the-mirage-house-in-the-clouds/">The Mirage House in the Clouds</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/the-flame-imperial-guards/">The Flame Imperial Guards</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/a-momment-but-forever/">A Moment But Forever</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/the-legend-of-magic-outfit/">The Legend of Magic Outfit</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/thrud/">Thrud</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/over-goddess/">Over Goddess</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/supreme-sword-god/">Supreme Sword God</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/urban-ancient-immortal-doctor/">Urban Ancient Immortal Doctor</a></td></tr>
-          <tr><td>00:30</td><td><a href="https://anichin.gold/shao-nian-ge-xing-season-4/">Shao Nian Ge Xing Season 4</a></td></tr>
-          <tr><td>01:00</td><td><a href="https://anichin.gold/yi-nian-yong-heng-season-3/">Yi Nian Yong Heng Season 3</a></td></tr>
-          <tr><td>01:30</td><td><a href="https://anichin.gold/shrounding-the-heavens/">Shrouding the Heavens</a></td></tr>
-        </tbody>
-      </table>
-    </div>
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__slider owl-carousel">
+                <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Adventure</div>
+                                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
+                                <p>After 30 days of travel across the world...</p>
+                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Adventure</div>
+                                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
+                                <p>After 30 days of travel across the world...</p>
+                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <div class="label">Adventure</div>
+                                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
+                                <p>After 30 days of travel across the world...</p>
+                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
 
-    <div class="day-table">
-      <h3>Kamis</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/start-to-be-a-star-today-season-2/">Start to Be a Star Today Season 2</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/god-of-war-alliance/">God of War Alliance</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/martial-inverse/">Martial Inverse</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/throne-of-seal/">Throne of Seal</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/stellar-transformation-season-6/">Stellar Transformation Season 6</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/ancient-star-divine-technique/">Ancient Star Divine Technique</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/the-soul-of-soldier-master/">The Soul of Soldier Master</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/my-senior-brother-is-too-steady/">My Senior Brother is Too Steady</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/make-money-to-be-king/">Make Money to Be King</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/x-epoch-of-dragon/">X-Epoch of Dragon</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/heaven-officials-blessing-season-2/">Heaven Official's Blessing Season 2</a></td></tr>
-          <tr><td>00:30</td><td><a href="https://anichin.gold/dream-tower-snow-mystery-city-season-2/">Dream Tower Snow Mystery City Season 2</a></td></tr>
-          <tr><td>01:00</td><td><a href="https://anichin.gold/fantasy-x-hunter/">Fantasy x Hunter</a></td></tr>
-        </tbody>
-      </table>
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="trending__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Trending Now</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shingeki no Kyojin Season 3 Part 2</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fullmetal Alchemist: Brotherhood</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shiratorizawa Gakuen Koukou</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/trending/trend-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Code Geass: Hangyaku no Lelouch R2</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Popular Shows</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Sen to Chihiro no Kamikakushi</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Kizumonogatari III: Reiket su-hen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shirogane Tamashii hen Kouhan sen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Rurouni Kenshin: Meiji Kenkaku Romantan</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou 2nd Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/popular/popular-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Monogatari Series: Second Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Recently Added Shows</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Great Teacher Onizuka</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fate/stay night Movie: Heaven's Feel - II. Lost</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou: Suzu no Shizuku</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fate/Zero 2nd Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Kizumonogatari II: Nekket su-hen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/recent/recent-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="live__product">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                                <div class="section-title">
+                                    <h4>Live Action</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="btn__all">
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-1.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Shouwa Genroku Rakugo Shinjuu</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-2.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou 2nd Season</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-3.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Mushishi Zoku Shou: Suzu no Shizuku</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-4.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-5.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Fate/stay night Movie: Heaven's Feel - II. Lost</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="product__item">
+                                    <div class="product__item__pic set-bg" data-setbg="img/live/live-6.jpg">
+                                        <div class="ep">18 / 18</div>
+                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                    </div>
+                                    <div class="product__item__text">
+                                        <ul>
+                                            <li>Active</li>
+                                            <li>Movie</li>
+                                        </ul>
+                                        <h5><a href="#">Kizumonogatari II: Nekketsu-hen</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="product__sidebar">
+                        <div class="product__sidebar__view">
+                            <div class="section-title">
+                                <h5>Top Views</h5>
+                            </div>
+                            <ul class="filter__controls">
+                                <li class="active" data-filter="*">Day</li>
+                                <li data-filter=".week">Week</li>
+                                <li data-filter=".month">Month</li>
+                                <li data-filter=".years">Years</li>
+                            </ul>
+                            <div class="filter__gallery">
+                                <div class="product__sidebar__view__item set-bg mix day years"
+                                data-setbg="img/sidebar/tv-1.jpg">
+                                <div class="ep">18 / ?</div>
+                                <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                                <h5><a href="#">Boruto: Naruto next generations</a></h5>
+                            </div>
+                            <div class="product__sidebar__view__item set-bg mix month week"
+                            data-setbg="img/sidebar/tv-2.jpg">
+                            <div class="ep">18 / ?</div>
+                            <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                            <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                        </div>
+                        <div class="product__sidebar__view__item set-bg mix week years"
+                        data-setbg="img/sidebar/tv-3.jpg">
+                        <div class="ep">18 / ?</div>
+                        <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                        <h5><a href="#">Sword art online alicization war of underworld</a></h5>
+                    </div>
+                    <div class="product__sidebar__view__item set-bg mix years month"
+                    data-setbg="img/sidebar/tv-4.jpg">
+                    <div class="ep">18 / ?</div>
+                    <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                    <h5><a href="#">Fate/stay night: Heaven's Feel I. presage flower</a></h5>
+                </div>
+                <div class="product__sidebar__view__item set-bg mix day"
+                data-setbg="img/sidebar/tv-5.jpg">
+                <div class="ep">18 / ?</div>
+                <div class="view"><i class="fa fa-eye"></i> 9141</div>
+                <h5><a href="#">Fate stay night unlimited blade works</a></h5>
+            </div>
+        </div>
     </div>
-
-    <div class="day-table">
-      <h3>Jumat</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/lord-of-planet/">Lord of Planet</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/shadow-of-the-void/">Shadow of the Void</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/keyboard-immortal/">Keyboard Immortal</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/perfect-world/">Perfect World</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/azure-legacy/">Azure Legacy</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/xi-xing-ji-season-5/">Xi Xing Ji Season 5</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/supreme-alchemy/">Supreme Alchemy</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/the-success-of-empyrean-xuan-emperor/">The Success of Empyrean Xuan Emperor</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/sword-bone/">Sword Bone</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/hundread-refining-ascensions-record/">Hundred Refining Ascensions Record</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/summer-punch/">Summer Punch</a></td></tr>
-          <tr><td>00:30</td><td><a href="https://anichin.gold/love-between-fairy-and-devil/">Love Between Fairy and Devil</a></td></tr>
-        </tbody>
-      </table>
+    <div class="product__sidebar__comment">
+        <div class="section-title">
+            <h5>New Comment</h5>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-1.jpg" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="#">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+            </div>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-2.jpg" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="#">Shirogane Tamashii hen Kouhan sen</a></h5>
+                <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+            </div>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-3.jpg" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="#">Kizumonogatari III: Reiket su-hen</a></h5>
+                <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+            </div>
+        </div>
+        <div class="product__sidebar__comment__item">
+            <div class="product__sidebar__comment__item__pic">
+                <img src="img/sidebar/comment-4.jpg" alt="">
+            </div>
+            <div class="product__sidebar__comment__item__text">
+                <ul>
+                    <li>Active</li>
+                    <li>Movie</li>
+                </ul>
+                <h5><a href="#">Monogatari Series: Second Season</a></h5>
+                <span><i class="fa fa-eye"></i> 19.141 Viewes</span>
+            </div>
+        </div>
     </div>
-
-    <div class="day-table">
-      <h3>Sabtu</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/carpenter-assassin/">Carpenter Assassin</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/the-guardian-legend/">The Guardian Legend</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/the-golden-wug/">The Golden Wug</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/soul-land-2-the-unrivaled-tang-sect/">Soul Land 2: The Unrivaled Tang Sect</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/the-ravages-of-time-season-2/">The Ravages of Time Season 2</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/magic-chef-of-fire-and-ice/">Magic Chef of Fire and Ice</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/fengwu-demon-chef/">Fengwu Demon Chef</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/nirvana-of-storm-riders/">Nirvana of Storm Riders</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/the-war-of-cards/">The War of Cards</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/heaven-shadow/">Heaven Shadow</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/king-of-loose-cultivators/">King of Loose Cultivators</a></td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="day-table">
-      <h3>Minggu</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Jam</th>
-            <th>Judul</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>19:00</td><td><a href="https://anichin.gold/raja-salju-tiba/">Raja Salju Tiba</a></td></tr>
-          <tr><td>19:30</td><td><a href="https://anichin.gold/battle-through-the-heavens-season-5/">Battle Through the Heavens Season 5</a></td></tr>
-          <tr><td>20:00</td><td><a href="https://anichin.gold/the-emperor-of-myriad-realms/">The Emperor of Myriad Realms</a></td></tr>
-          <tr><td>20:30</td><td><a href="https://anichin.gold/legend-of-martial-immortal/">Legend of Martial Immortal</a></td></tr>
-          <tr><td>21:00</td><td><a href="https://anichin.gold/tales-of-herding-gods/">Tales of Herding Gods</a></td></tr>
-          <tr><td>21:30</td><td><a href="https://anichin.gold/martial-peak/">Martial Peak</a></td></tr>
-          <tr><td>22:00</td><td><a href="https://anichin.gold/peerless-martial-spirit/">Peerless Martial Spirit</a></td></tr>
-          <tr><td>22:30</td><td><a href="https://anichin.gold/ancient-supremacy-yishi-duzun/">Ancient Supremacy Yishi Duzun</a></td></tr>
-          <tr><td>23:00</td><td><a href="https://anichin.gold/soul-land-season-2-live-action/">Soul Land Season 2 (Live Action)</a></td></tr>
-          <tr><td>23:30</td><td><a href="https://anichin.gold/aiyous-secret-room/">Aiyou's Secret Room</a></td></tr>
-          <tr><td>00:00</td><td><a href="https://anichin.gold/the-girl-downstairs/">The Girl Downstairs</a></td></tr>
-          <tr><td>00:30</td><td><a href="https://anichin.gold/my-parents-are-otakus/">My Parents are Otakus</a></td></tr>
-        </tbody>
-      </table>
-    </div>
-
-  </div>
 </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Product Section End -->
+
+<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+                    <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer__nav">
+                    <ul>
+                        <li class="active"><a href="./index.html">Homepage</a></li>
+                        <li><a href="./categories.html">Categories</a></li>
+                        <li><a href="./blog.html">Our Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Footer Section End -->
+
+  <!-- Search model Begin -->
+  <div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch"><i class="icon_close"></i></div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search model end -->
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/player.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
 
 </body>
+
 </html>
