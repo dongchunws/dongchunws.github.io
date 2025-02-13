@@ -13,17 +13,18 @@
       flex-direction: column;
       align-items: center;
       min-height: 100vh;
+      padding: 20px; /* Tambahkan padding ke body untuk mobile */
+      box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
     }
 
     .container {
-      width: 90%;
-      max-width: 1400px;
-      margin: 20px;
-      padding: 20px;
+      width: 100%; /* Lebar container 100% untuk mobile */
+      max-width: 1400px; /* Tetapkan lebar maksimum untuk desktop */
       background-color: white;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
-      overflow-x: auto;
+      overflow-x: auto; /* Aktifkan scroll horizontal pada mobile */
+      box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
     }
 
     .tables-container {
@@ -33,8 +34,8 @@
     }
 
     .day-table {
-      width: calc(33.33% - 20px);
-      margin: 10px;
+      width: 100%; /* Setiap tabel mengambil seluruh lebar pada mobile */
+      margin: 10px 0; /* Margin atas dan bawah untuk mobile */
       box-sizing: border-box;
     }
 
@@ -72,7 +73,20 @@
     }
 
     a:hover {
-      color: #2980b9;
+      text-decoration: underline;
+    }
+
+    /* Media query untuk layar yang lebih besar dari 768px (misalnya, tablet dan desktop) */
+    @media (min-width: 768px) {
+      .container {
+        width: 90%; /* Kembalikan lebar container ke 90% */
+        padding: 20px;
+      }
+
+      .day-table {
+        width: calc(33.33% - 20px); /* Setiap tabel mengambil sepertiga lebar pada desktop */
+        margin: 10px;
+      }
     }
   </style>
 </head>
